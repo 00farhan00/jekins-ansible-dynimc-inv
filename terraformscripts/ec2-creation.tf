@@ -8,7 +8,7 @@ resource "aws_instance" "AWSEC2Instance"{
      ami     =  "ami-069d9fecd19e7ed40"
      instance_type = "t2.micro"
      security_groups = ["launch-wizard-2"]
-     key_name        = "tomcat"
+     key_name        = "ansiblekey"
      tags = {
         Name = "tomcatserver2"
      }
