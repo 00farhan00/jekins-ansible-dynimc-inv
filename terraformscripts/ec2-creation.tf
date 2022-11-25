@@ -10,7 +10,7 @@ resource "aws_instance" "AWSEC2Instance"{
      security_groups = ["launch-wizard-2"]
      key_name        = "ansiblekey"
      tags = {
-        Name = "tomcatserver2"
+        Name = "tomcatserver1"
      }
 }
 
